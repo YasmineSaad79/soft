@@ -1,6 +1,0 @@
-id,name,description,price,weight,availability,quantity
-1,Chocolate cake,Rich chocolate cake with a creamy frosting,25.00,500g,In Stock,10
-3,Cheesecake,Classic cheesecake with a graham cracker crust,30.00,600g,Out of Stock,0
-4,Macarons,Colorful almond macarons with various fillings,18.00,150g,In Stock,50
-5,Brownies,Decadent chocolate brownies with walnuts,20.00,250g,In Stock,20
-0001,kunafa,delicious,35.00,0g,available,10
