@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="najah.edu.acceptance.AcceptanceTest" time="30.815" tests="40" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="20"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\dell\git\repository\SweetNablus\target\test-classes;C:\Users\dell\git\repository\SweetNablus\target\classes;C:\Users\dell\.m2\repository\io\cucumber\cucumber-java\7.14.0\cucumber-java-7.14.0.jar;C:\Users\dell\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\dell\.m2\repository\io\cucumber\cucumber-core\7.14.0\cucumber-core-7.14.0.jar;C:\Users\dell\.m2\repository\io\cucumber\cucumber-gherkin\7.14.0\cucumber-gherkin-7.14.0.jar;C:\Users\dell\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.14.0\cucumber-gherkin-messages-7.14.0.jar;C:\Users\dell\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\dell\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\dell\.m2\repository\io\cucumber\tag-expressions\5.0.6\tag-expressions-5.0.6.jar;C:\Users\dell\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\dell\.m2\repository\io\cucumber\datatable\7.14.0\datatable-7.14.0.jar;C:\Users\dell\.m2\repository\io\cucumber\cucumber-plugin\7.14.0\cucumber-plugin-7.14.0.jar;C:\Users\dell\.m2\repository\io\cucumber\docstring\7.14.0\docstring-7.14.0.jar;C:\Users\dell\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\dell\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\dell\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\dell\.m2\repository\org\mockito\mockito-core\4.8.0\mockito-core-4.8.0.jar;C:\Users\dell\.m2\repository\net\bytebuddy\byte-buddy\1.12.14\byte-buddy-1.12.14.jar;C:\Users\dell\.m2\repository\net\bytebuddy\byte-buddy-agent\1.12.14\byte-buddy-agent-1.12.14.jar;C:\Users\dell\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;C:\Users\dell\.m2\repository\io\cucumber\cucumber-junit\7.14.0\cucumber-junit-7.14.0.jar;C:\Users\dell\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\dell\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\dell\.m2\repository\io\cucumber\cucumber-picocontainer\7.14.0\cucumber-picocontainer-7.14.0.jar;C:\Users\dell\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;C:\Users\dell\.m2\repository\org\apache\logging\log4j\log4j-api\2.19.0\log4j-api-2.19.0.jar;C:\Users\dell\.m2\repository\org\apache\logging\log4j\log4j-core\2.19.0\log4j-core-2.19.0.jar;C:\Users\dell\.m2\repository\javax\mail\javax.mail-api\1.6.2\javax.mail-api-1.6.2.jar;C:\Users\dell\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\dell\.m2\repository\com\sun\mail\javax.mail\1.6.2\javax.mail-1.6.2.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="GMT+02:00"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="20"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Users\dell\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_20.0.2.v20230801-2057\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\dell\AppData\Local\Temp\surefire13492135470710707719\surefirebooter-20240818225013182_3.jar C:\Users\dell\AppData\Local\Temp\surefire13492135470710707719 2024-08-18T22-50-12_743-jvmRun1 surefire-20240818225013182_1tmp surefire_0-20240818225013182_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\dell\git\repository\SweetNablus\target\test-classes;C:\Users\dell\git\repository\SweetNablus\target\classes;C:\Users\dell\.m2\repository\io\cucumber\cucumber-java\7.14.0\cucumber-java-7.14.0.jar;C:\Users\dell\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\dell\.m2\repository\io\cucumber\cucumber-core\7.14.0\cucumber-core-7.14.0.jar;C:\Users\dell\.m2\repository\io\cucumber\cucumber-gherkin\7.14.0\cucumber-gherkin-7.14.0.jar;C:\Users\dell\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.14.0\cucumber-gherkin-messages-7.14.0.jar;C:\Users\dell\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\dell\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\dell\.m2\repository\io\cucumber\tag-expressions\5.0.6\tag-expressions-5.0.6.jar;C:\Users\dell\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\dell\.m2\repository\io\cucumber\datatable\7.14.0\datatable-7.14.0.jar;C:\Users\dell\.m2\repository\io\cucumber\cucumber-plugin\7.14.0\cucumber-plugin-7.14.0.jar;C:\Users\dell\.m2\repository\io\cucumber\docstring\7.14.0\docstring-7.14.0.jar;C:\Users\dell\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\dell\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\dell\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\dell\.m2\repository\org\mockito\mockito-core\4.8.0\mockito-core-4.8.0.jar;C:\Users\dell\.m2\repository\net\bytebuddy\byte-buddy\1.12.14\byte-buddy-1.12.14.jar;C:\Users\dell\.m2\repository\net\bytebuddy\byte-buddy-agent\1.12.14\byte-buddy-agent-1.12.14.jar;C:\Users\dell\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;C:\Users\dell\.m2\repository\io\cucumber\cucumber-junit\7.14.0\cucumber-junit-7.14.0.jar;C:\Users\dell\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\dell\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\dell\.m2\repository\io\cucumber\cucumber-picocontainer\7.14.0\cucumber-picocontainer-7.14.0.jar;C:\Users\dell\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;C:\Users\dell\.m2\repository\org\apache\logging\log4j\log4j-api\2.19.0\log4j-api-2.19.0.jar;C:\Users\dell\.m2\repository\org\apache\logging\log4j\log4j-core\2.19.0\log4j-core-2.19.0.jar;C:\Users\dell\.m2\repository\javax\mail\javax.mail-api\1.6.2\javax.mail-api-1.6.2.jar;C:\Users\dell\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\dell\.m2\repository\com\sun\mail\javax.mail\1.6.2\javax.mail-1.6.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\dell"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-07-18"/>
+    <property name="java.home" value="C:\Users\dell\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_20.0.2.v20230801-2057\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\dell\git\repository\SweetNablus"/>
+    <property name="style.color" value="always"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\dell\AppData\Local\Temp\surefire13492135470710707719\surefirebooter-20240818225013182_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="20.0.2+9"/>
+    <property name="user.name" value="dell"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-20.0.2+9"/>
+    <property name="localRepository" value="C:\Users\dell\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\dell\AppData\Local\Temp\"/>
+    <property name="java.version" value="20.0.2"/>
+    <property name="user.dir" value="C:\Users\dell\git\repository\SweetNablus"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\dell\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_20.0.2.v20230801-2057\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/dell/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_20.0.2.v20230801-2057/jre/bin/server;C:/Users/dell/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_20.0.2.v20230801-2057/jre/bin;C:\Program Files\Java\jdk-17\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\dell\AppData\Local\Microsoft\WindowsApps;;C:\Windows\system32;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="20.0.2+9"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="64.0"/>
+  </properties>
+  <testcase name="Notification to confirm The Customer Order" classname="Manage Notification" time="6.804">
+    <system-out><![CDATA[DEBUG: setDebug: JavaMail version 1.6.2
+DEBUG: getProvider() returning javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Oracle]
+DEBUG SMTP: need username and password for authentication
+DEBUG SMTP: protocolConnect returning false, host=smtp.gmail.com, user=dell, password=<null>
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: trying to connect to host "smtp.gmail.com", port 587, isSSL false
+220 smtp.gmail.com ESMTP ffacd0b85a97d-371898aabf5sm8682034f8f.97 - gsmtp
+DEBUG SMTP: connected to host "smtp.gmail.com", port: 587
+EHLO DESKTOP-PGSL941.home
+250-smtp.gmail.com at your service, [182.161.61.131]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+DEBUG SMTP: Found extension "SIZE", arg "35882577"
+DEBUG SMTP: Found extension "8BITMIME", arg ""
+DEBUG SMTP: Found extension "STARTTLS", arg ""
+DEBUG SMTP: Found extension "ENHANCEDSTATUSCODES", arg ""
+DEBUG SMTP: Found extension "PIPELINING", arg ""
+DEBUG SMTP: Found extension "CHUNKING", arg ""
+DEBUG SMTP: Found extension "SMTPUTF8", arg ""
+STARTTLS
+220 2.0.0 Ready to start TLS
+EHLO DESKTOP-PGSL941.home
+250-smtp.gmail.com at your service, [182.161.61.131]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+DEBUG SMTP: Found extension "SIZE", arg "35882577"
+DEBUG SMTP: Found extension "8BITMIME", arg ""
+DEBUG SMTP: Found extension "AUTH", arg "LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH"
+DEBUG SMTP: Found extension "ENHANCEDSTATUSCODES", arg ""
+DEBUG SMTP: Found extension "PIPELINING", arg ""
+DEBUG SMTP: Found extension "CHUNKING", arg ""
+DEBUG SMTP: Found extension "SMTPUTF8", arg ""
+DEBUG SMTP: protocolConnect login, host=smtp.gmail.com, user=saady9055@gmail.com, password=<non-null>
+DEBUG SMTP: Attempt to authenticate using mechanisms: LOGIN PLAIN DIGEST-MD5 NTLM XOAUTH2 
+DEBUG SMTP: Using mechanism LOGIN
+DEBUG SMTP: AUTH LOGIN command trace suppressed
+DEBUG SMTP: AUTH LOGIN succeeded
+DEBUG SMTP: use8bit false
+MAIL FROM:<saady9055@gmail.com>
+250 2.1.0 OK ffacd0b85a97d-371898aabf5sm8682034f8f.97 - gsmtp
+RCPT TO:<saady9055@gmail.com>
+250 2.1.5 OK ffacd0b85a97d-371898aabf5sm8682034f8f.97 - gsmtp
+DEBUG SMTP: Verified Addresses
+DEBUG SMTP:   saady9055@gmail.com
+DATA
+354  Go ahead ffacd0b85a97d-371898aabf5sm8682034f8f.97 - gsmtp
+Date: Sun, 18 Aug 2024 22:50:16 +0200 (GMT+02:00)
+From: saady9055@gmail.com
+To: saady9055@gmail.com
+Message-ID: <2030138610.0.1724014216894@DESKTOP-PGSL941.home>
+Subject: Order Status Changed
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+The order status has changed to shipped.
+.
+250 2.0.0 OK  1724010600 ffacd0b85a97d-371898aabf5sm8682034f8f.97 - gsmtp
+DEBUG SMTP: message successfully delivered to mail server
+QUIT
+221 2.0.0 closing connection ffacd0b85a97d-371898aabf5sm8682034f8f.97 - gsmtp
+]]></system-out>
+    <system-err><![CDATA[Aug 18, 2024 10:50:22 PM najah.edu.Owner receiveNotifications
+INFO: Notification sent to owner about order status change to shipped
+]]></system-err>
+  </testcase>
+  <testcase name="Order status changed Notification For Customer to shipped" classname="Manage Notification" time="10.085">
+    <system-out><![CDATA[DEBUG: setDebug: JavaMail version 1.6.2
+DEBUG: getProvider() returning javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Oracle]
+DEBUG SMTP: need username and password for authentication
+DEBUG SMTP: protocolConnect returning false, host=smtp.gmail.com, user=dell, password=<null>
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: trying to connect to host "smtp.gmail.com", port 587, isSSL false
+220 smtp.gmail.com ESMTP 5b1f17b1804b1-429d781047asm148898945e9.0 - gsmtp
+DEBUG SMTP: connected to host "smtp.gmail.com", port: 587
+EHLO DESKTOP-PGSL941.home
+250-smtp.gmail.com at your service, [182.161.61.131]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+DEBUG SMTP: Found extension "SIZE", arg "35882577"
+DEBUG SMTP: Found extension "8BITMIME", arg ""
+DEBUG SMTP: Found extension "STARTTLS", arg ""
+DEBUG SMTP: Found extension "ENHANCEDSTATUSCODES", arg ""
+DEBUG SMTP: Found extension "PIPELINING", arg ""
+DEBUG SMTP: Found extension "CHUNKING", arg ""
+DEBUG SMTP: Found extension "SMTPUTF8", arg ""
+STARTTLS
+220 2.0.0 Ready to start TLS
+EHLO DESKTOP-PGSL941.home
+250-smtp.gmail.com at your service, [182.161.61.131]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+DEBUG SMTP: Found extension "SIZE", arg "35882577"
+DEBUG SMTP: Found extension "8BITMIME", arg ""
+DEBUG SMTP: Found extension "AUTH", arg "LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH"
+DEBUG SMTP: Found extension "ENHANCEDSTATUSCODES", arg ""
+DEBUG SMTP: Found extension "PIPELINING", arg ""
+DEBUG SMTP: Found extension "CHUNKING", arg ""
+DEBUG SMTP: Found extension "SMTPUTF8", arg ""
+DEBUG SMTP: protocolConnect login, host=smtp.gmail.com, user=saady9055@gmail.com, password=<non-null>
+DEBUG SMTP: Attempt to authenticate using mechanisms: LOGIN PLAIN DIGEST-MD5 NTLM XOAUTH2 
+DEBUG SMTP: Using mechanism LOGIN
+DEBUG SMTP: AUTH LOGIN command trace suppressed
+DEBUG SMTP: AUTH LOGIN succeeded
+DEBUG SMTP: use8bit false
+MAIL FROM:<saady9055@gmail.com>
+250 2.1.0 OK 5b1f17b1804b1-429d781047asm148898945e9.0 - gsmtp
+RCPT TO:<saady9055@gmail.com>
+250 2.1.5 OK 5b1f17b1804b1-429d781047asm148898945e9.0 - gsmtp
+DEBUG SMTP: Verified Addresses
+DEBUG SMTP:   saady9055@gmail.com
+DATA
+354  Go ahead 5b1f17b1804b1-429d781047asm148898945e9.0 - gsmtp
+Date: Sun, 18 Aug 2024 22:50:23 +0200 (GMT+02:00)
+From: saady9055@gmail.com
+To: saady9055@gmail.com
+Message-ID: <933646237.1.1724014223077@DESKTOP-PGSL941.home>
+Subject: Order Status Changed
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+The order has been delivered.
+.
+250 2.0.0 OK  1724010605 5b1f17b1804b1-429d781047asm148898945e9.0 - gsmtp
+DEBUG SMTP: message successfully delivered to mail server
+QUIT
+221 2.0.0 closing connection 5b1f17b1804b1-429d781047asm148898945e9.0 - gsmtp
+]]></system-out>
+    <system-err><![CDATA[Aug 18, 2024 10:50:28 PM najah.edu.Owner receiveNotifications
+INFO: Notification sent to owner about order status change to delivered
+]]></system-err>
+  </testcase>
+  <testcase name="owner can add product" classname="Product Management" time="0.172">
+    <system-err><![CDATA[Aug 18, 2024 10:50:33 PM najah.edu.Product addProduct
+INFO: Product added successfully: 0001
+]]></system-err>
+  </testcase>
+  <testcase name="owner enter id that already exist" classname="Product Management" time="0.131">
+    <system-err><![CDATA[Aug 18, 2024 10:50:33 PM najah.edu.Product addProduct
+INFO: Product ID already exists: 1
+]]></system-err>
+  </testcase>
+  <testcase name="owner can update product" classname="Product Management" time="0.082">
+    <system-err><![CDATA[Aug 18, 2024 10:50:33 PM najah.edu.Product updateProduct
+INFO: Product updated successfully: 2
+]]></system-err>
+  </testcase>
+  <testcase name="owner enter id not exist to update product" classname="Product Management" time="0.117">
+    <system-err><![CDATA[Aug 18, 2024 10:50:33 PM najah.edu.Product updateProduct
+INFO: Product ID not found: 6000
+]]></system-err>
+  </testcase>
+  <testcase name="owner can delete product" classname="Product Management" time="0.079">
+    <system-err><![CDATA[Aug 18, 2024 10:50:33 PM najah.edu.Product deleteProduct
+INFO: Product deleted successfully: 2
+]]></system-err>
+  </testcase>
+  <testcase name="owner enter id not exist to delete" classname="Product Management" time="0.193">
+    <system-err><![CDATA[Aug 18, 2024 10:50:33 PM najah.edu.Product deleteProduct
+INFO: Product ID not found: 333
+]]></system-err>
+  </testcase>
+  <testcase name="owner show all product" classname="Product Management" time="0.026"/>
+  <testcase name="Search for a product by ID and found it #1" classname="Product Search" time="0.076"/>
+  <testcase name="Search for a product by ID and found it #2" classname="Product Search" time="0.088"/>
+  <testcase name="Search for a product by ID but not found" classname="Product Search" time="0.094"/>
+  <testcase name="Search for a product by name and found it" classname="Product Search" time="0.099"/>
+  <testcase name="Search for a product by name but name not found" classname="Product Search" time="0.068"/>
+  <testcase name="Search for a product by description or part of it and found it" classname="Product Search" time="0.121"/>
+  <testcase name="Search for a product by description and not found" classname="Product Search" time="0.071"/>
+  <testcase name="Search for a product by availability" classname="Product Search" time="0.03"/>
+  <testcase name="Search for a product by availability but not found" classname="Product Search" time="0.039"/>
+  <testcase name="The Admin can generate financial reports" classname="User Roles" time="0.065">
+    <system-err><![CDATA[Aug 18, 2024 10:50:34 PM najah.edu.Admin generateFinancialReports
+INFO: Generating financial reports...
+]]></system-err>
+  </testcase>
+  <testcase name="The Admin can manage contents" classname="User Roles" time="0.026"/>
+  <testcase name="The Admin can manage recipes" classname="User Roles" time="0.015"/>
+  <testcase name="The Admin can gather and display statistics on registered users by city" classname="User Roles" time="0.028"/>
+  <testcase name="The Admin enters a number not found" classname="User Roles" time="0.017"/>
+  <testcase name="The Beneficiary User can browse sweets" classname="User Roles" time="0.011"/>
+  <testcase name="The Beneficiary User can make purchases" classname="User Roles" time="0.036"/>
+  <testcase name="The Beneficiary User enters a number not found" classname="User Roles" time="0.02"/>
+  <testcase name="The Owner can send email notifications" classname="User Roles" time="10.059">
+    <system-out><![CDATA[DEBUG: setDebug: JavaMail version 1.6.2
+DEBUG: getProvider() returning javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Oracle]
+DEBUG SMTP: need username and password for authentication
+DEBUG SMTP: protocolConnect returning false, host=smtp.gmail.com, user=dell, password=<null>
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: trying to connect to host "smtp.gmail.com", port 587, isSSL false
+220 smtp.gmail.com ESMTP ffacd0b85a97d-371898aac62sm8647525f8f.101 - gsmtp
+DEBUG SMTP: connected to host "smtp.gmail.com", port: 587
+EHLO DESKTOP-PGSL941.home
+250-smtp.gmail.com at your service, [182.161.61.131]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+DEBUG SMTP: Found extension "SIZE", arg "35882577"
+DEBUG SMTP: Found extension "8BITMIME", arg ""
+DEBUG SMTP: Found extension "STARTTLS", arg ""
+DEBUG SMTP: Found extension "ENHANCEDSTATUSCODES", arg ""
+DEBUG SMTP: Found extension "PIPELINING", arg ""
+DEBUG SMTP: Found extension "CHUNKING", arg ""
+DEBUG SMTP: Found extension "SMTPUTF8", arg ""
+STARTTLS
+220 2.0.0 Ready to start TLS
+EHLO DESKTOP-PGSL941.home
+250-smtp.gmail.com at your service, [182.161.61.131]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+DEBUG SMTP: Found extension "SIZE", arg "35882577"
+DEBUG SMTP: Found extension "8BITMIME", arg ""
+DEBUG SMTP: Found extension "AUTH", arg "LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH"
+DEBUG SMTP: Found extension "ENHANCEDSTATUSCODES", arg ""
+DEBUG SMTP: Found extension "PIPELINING", arg ""
+DEBUG SMTP: Found extension "CHUNKING", arg ""
+DEBUG SMTP: Found extension "SMTPUTF8", arg ""
+DEBUG SMTP: protocolConnect login, host=smtp.gmail.com, user=saady9055@gmail.com, password=<non-null>
+DEBUG SMTP: Attempt to authenticate using mechanisms: LOGIN PLAIN DIGEST-MD5 NTLM XOAUTH2 
+DEBUG SMTP: Using mechanism LOGIN
+DEBUG SMTP: AUTH LOGIN command trace suppressed
+DEBUG SMTP: AUTH LOGIN succeeded
+DEBUG SMTP: use8bit false
+MAIL FROM:<saady9055@gmail.com>
+250 2.1.0 OK ffacd0b85a97d-371898aac62sm8647525f8f.101 - gsmtp
+RCPT TO:<saady9055@gmail.com>
+250 2.1.5 OK ffacd0b85a97d-371898aac62sm8647525f8f.101 - gsmtp
+DEBUG SMTP: Verified Addresses
+DEBUG SMTP:   saady9055@gmail.com
+DATA
+354  Go ahead ffacd0b85a97d-371898aac62sm8647525f8f.101 - gsmtp
+Date: Sun, 18 Aug 2024 22:50:34 +0200 (GMT+02:00)
+From: saady9055@gmail.com
+To: saady9055@gmail.com
+Message-ID: <564893839.2.1724014234922@DESKTOP-PGSL941.home>
+Subject: Order Status Changed
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+The order status has changed to shipped.
+.
+250 2.0.0 OK  1724010617 ffacd0b85a97d-371898aac62sm8647525f8f.101 - gsmtp
+DEBUG SMTP: message successfully delivered to mail server
+QUIT
+221 2.0.0 closing connection ffacd0b85a97d-371898aac62sm8647525f8f.101 - gsmtp
+DEBUG: setDebug: JavaMail version 1.6.2
+DEBUG: getProvider() returning javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Oracle]
+DEBUG SMTP: need username and password for authentication
+DEBUG SMTP: protocolConnect returning false, host=smtp.gmail.com, user=dell, password=<null>
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: trying to connect to host "smtp.gmail.com", port 587, isSSL false
+220 smtp.gmail.com ESMTP ffacd0b85a97d-371898ac2c6sm8699793f8f.108 - gsmtp
+DEBUG SMTP: connected to host "smtp.gmail.com", port: 587
+EHLO DESKTOP-PGSL941.home
+250-smtp.gmail.com at your service, [182.161.61.131]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+DEBUG SMTP: Found extension "SIZE", arg "35882577"
+DEBUG SMTP: Found extension "8BITMIME", arg ""
+DEBUG SMTP: Found extension "STARTTLS", arg ""
+DEBUG SMTP: Found extension "ENHANCEDSTATUSCODES", arg ""
+DEBUG SMTP: Found extension "PIPELINING", arg ""
+DEBUG SMTP: Found extension "CHUNKING", arg ""
+DEBUG SMTP: Found extension "SMTPUTF8", arg ""
+STARTTLS
+220 2.0.0 Ready to start TLS
+EHLO DESKTOP-PGSL941.home
+250-smtp.gmail.com at your service, [182.161.61.131]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+DEBUG SMTP: Found extension "SIZE", arg "35882577"
+DEBUG SMTP: Found extension "8BITMIME", arg ""
+DEBUG SMTP: Found extension "AUTH", arg "LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH"
+DEBUG SMTP: Found extension "ENHANCEDSTATUSCODES", arg ""
+DEBUG SMTP: Found extension "PIPELINING", arg ""
+DEBUG SMTP: Found extension "CHUNKING", arg ""
+DEBUG SMTP: Found extension "SMTPUTF8", arg ""
+DEBUG SMTP: protocolConnect login, host=smtp.gmail.com, user=saady9055@gmail.com, password=<non-null>
+DEBUG SMTP: Attempt to authenticate using mechanisms: LOGIN PLAIN DIGEST-MD5 NTLM XOAUTH2 
+DEBUG SMTP: Using mechanism LOGIN
+DEBUG SMTP: AUTH LOGIN command trace suppressed
+DEBUG SMTP: AUTH LOGIN succeeded
+DEBUG SMTP: use8bit false
+MAIL FROM:<saady9055@gmail.com>
+250 2.1.0 OK ffacd0b85a97d-371898ac2c6sm8699793f8f.108 - gsmtp
+RCPT TO:<saady9055@gmail.com>
+250 2.1.5 OK ffacd0b85a97d-371898ac2c6sm8699793f8f.108 - gsmtp
+DEBUG SMTP: Verified Addresses
+DEBUG SMTP:   saady9055@gmail.com
+DATA
+354  Go ahead ffacd0b85a97d-371898ac2c6sm8699793f8f.108 - gsmtp
+Date: Sun, 18 Aug 2024 22:50:39 +0200 (GMT+02:00)
+From: saady9055@gmail.com
+To: saady9055@gmail.com
+Message-ID: <1676010932.3.1724014239856@DESKTOP-PGSL941.home>
+Subject: Order Status Changed
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+The order has been delivered.
+.
+250 2.0.0 OK  1724010622 ffacd0b85a97d-371898ac2c6sm8699793f8f.108 - gsmtp
+DEBUG SMTP: message successfully delivered to mail server
+QUIT
+221 2.0.0 closing connection ffacd0b85a97d-371898ac2c6sm8699793f8f.108 - gsmtp
+]]></system-out>
+    <system-err><![CDATA[Aug 18, 2024 10:50:39 PM najah.edu.Owner receiveNotifications
+INFO: Notification sent to owner about order status change to shipped
+Aug 18, 2024 10:50:44 PM najah.edu.Owner receiveNotifications
+INFO: Notification sent to owner about order status change to delivered
+]]></system-err>
+  </testcase>
+  <testcase name="The Owner can identifiy best selling" classname="User Roles" time="0.036">
+    <system-err><![CDATA[Aug 18, 2024 10:50:44 PM najah.edu.Owner identifyBestSellingProducts
+INFO: Best Selling Product: Cupcake with 5 units sold.
+]]></system-err>
+  </testcase>
+  <testcase name="Beneficiary Users can sign up" classname="user sign up" time="0.026"/>
+  <testcase name="Beneficiary Users Enter different password" classname="user sign up" time="0.027"/>
+  <testcase name="Beneficiary Users Entered an email that already exists" classname="user sign up" time="0.016"/>
+  <testcase name="Beneficiary User can login" classname="user login" time="0.03">
+    <system-err><![CDATA[Aug 18, 2024 10:50:45 PM najah.edu.Registration customerIslLogin
+WARNING: s12112317@stu.najah.edu is login sucessfully!
+]]></system-err>
+  </testcase>
+  <testcase name="Beneficiary User enter  false Email" classname="user login" time="0.023"/>
+  <testcase name="Beneficiary User enter  false Password" classname="user login" time="0.029">
+    <system-err><![CDATA[Aug 18, 2024 10:50:45 PM najah.edu.Registration notFoundPasswordCustomer
+WARNING: Beneficiary password is Wrong! Try Again 
+]]></system-err>
+  </testcase>
+  <testcase name="Admin can login" classname="user login" time="0.02"/>
+  <testcase name="Admin enter wrong Email" classname="user login" time="0.025"/>
+  <testcase name="Admin enter wrong Password" classname="user login" time="0.018">
+    <system-err><![CDATA[Aug 18, 2024 10:50:45 PM najah.edu.Registration AdminWrongEmail
+WARNING: Admin Email is Wrong! Try Again
+]]></system-err>
+  </testcase>
+  <testcase name="owner can login" classname="user login" time="0.017"/>
+  <testcase name="owner enter  false Email" classname="user login" time="0.019"/>
+  <testcase name="owner enter  false Password" classname="user login" time="0.021">
+    <system-err><![CDATA[Aug 18, 2024 10:50:45 PM najah.edu.Registration OwnerWrongEmail
+WARNING: Owner Email is Wrong! Try Again
+]]></system-err>
+  </testcase>
+</testsuite>
