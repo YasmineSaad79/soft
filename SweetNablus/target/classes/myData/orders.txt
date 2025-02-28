@@ -1,2 +1,0 @@
-order_id,order_date,delivery_date,status
-2,2024-08-03,2024-08-15,Processing

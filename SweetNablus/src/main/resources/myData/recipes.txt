@@ -1,5 +1,0 @@
-Chocolate Cake, Chocolate, 12 slices, 1.5 kg
-Vanilla Cupcake,Vanilla,6 cupcakes,200 g
-Lemon Tart, Lemon, 8 slices, 500 g
-Carrot Cake, Carrot, 10 slices, 1 kg
-Orange Cake,Orange, 10 slices,10 Kg,
